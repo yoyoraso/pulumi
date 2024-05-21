@@ -1,0 +1,8 @@
+image:
+  pullPolicy: IfNotPresent
+  registry: docker.io
+  repository: traefik
+  tag: "v2.11.2"
+
+ingressClass:
+  name: local-traefik
