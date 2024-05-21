@@ -1,0 +1,3 @@
+encryptionsalt: v1:B3YfRYk2ia8=:v1:l70OJvtu99vZEBwm:tDEVRnw9Y6vVs0DbsyYYIil7qHyZMw==
+config:
+  main-stack:k8sNamespace: traefik-ingress
