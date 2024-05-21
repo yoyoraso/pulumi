@@ -15,7 +15,6 @@ traefik = Release(
         version="28.0.0",
         create_namespace=True,    
         namespace="traefik",
-        value_yaml_files=[pulumi.FileAsset("./values.yaml")],
         repository_opts=RepositoryOptsArgs(
             repo="https://traefik.github.io/charts",
         ),
