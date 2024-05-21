@@ -12,7 +12,7 @@ traefik = Release(
     ReleaseArgs(
         name="traefik",
         chart="traefik",
-        version="26.1.0",
+        version="28.0.0",
         create_namespace=True,    
         namespace="traefik",
         repository_opts=RepositoryOptsArgs(
